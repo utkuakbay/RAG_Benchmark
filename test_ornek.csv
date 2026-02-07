@@ -1,10 +1,10 @@
-soru,ideal_cevap
-Python kimler tarafından geliştirilmiştir?,Guido van Rossum tarafından geliştirilmiştir
-Veri bilimi ne işe yarar?,Veri bilimi verilerden anlamlı bilgiler çıkarmak için kullanılır
-Makine öğreniminin ana türleri nelerdir?,Supervised ve unsupervised learning olmak üzere iki ana türü vardır
-Derin öğrenme hangi alanlarda başarılıdır?,Görüntü tanıma ve doğal dil işleme alanlarında başarılıdır
-FAISS kütüphanesi kim tarafından geliştirilmiştir?,Facebook AI Research tarafından geliştirilmiştir
-LangChain ne işe yarar?,LLM uygulamaları geliştirmek için kullanılan bir Python framework'üdür
-RAG sistemi nedir?,Retrieval-Augmented Generation sistemi bilgi tabanından ilgili dokümanları alıp LLM'e vererek daha doğru cevaplar üretir
-Transformers mimarisini kim önermiştir?,2017'de Google tarafından önerilmiştir
+question,ideal_answer
+Who developed Python?,It was developed by Guido van Rossum
+What is data science used for?,Data science is used to extract meaningful insights from data
+What are the main types of machine learning?,There are two main types: supervised and unsupervised learning
+In which fields is deep learning successful?,It is successful in image recognition and natural language processing
+Who developed the FAISS library?,It was developed by Facebook AI Research
+What is LangChain used for?,It is a Python framework used for developing LLM applications
+What is a RAG system?,The Retrieval-Augmented Generation system retrieves relevant documents from a knowledge base and feeds them to the LLM to generate more accurate answers
+Who proposed the Transformers architecture?,It was proposed by Google in 2017
 
