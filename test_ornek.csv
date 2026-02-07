@@ -1,0 +1,10 @@
+soru,ideal_cevap
+Python kimler tarafından geliştirilmiştir?,Guido van Rossum tarafından geliştirilmiştir
+Veri bilimi ne işe yarar?,Veri bilimi verilerden anlamlı bilgiler çıkarmak için kullanılır
+Makine öğreniminin ana türleri nelerdir?,Supervised ve unsupervised learning olmak üzere iki ana türü vardır
+Derin öğrenme hangi alanlarda başarılıdır?,Görüntü tanıma ve doğal dil işleme alanlarında başarılıdır
+FAISS kütüphanesi kim tarafından geliştirilmiştir?,Facebook AI Research tarafından geliştirilmiştir
+LangChain ne işe yarar?,LLM uygulamaları geliştirmek için kullanılan bir Python framework'üdür
+RAG sistemi nedir?,Retrieval-Augmented Generation sistemi bilgi tabanından ilgili dokümanları alıp LLM'e vererek daha doğru cevaplar üretir
+Transformers mimarisini kim önermiştir?,2017'de Google tarafından önerilmiştir
+

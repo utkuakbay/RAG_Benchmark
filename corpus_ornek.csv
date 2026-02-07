@@ -1,0 +1,12 @@
+baslik,icerik,kategori,yazar
+Python Programlama,Python yüksek seviyeli bir programlama dilidir. Guido van Rossum tarafından geliştirilmiştir ve basit sözdizimi ile bilinir.,Programlama,Guido van Rossum
+Veri Bilimi Nedir,Veri bilimi verilerden anlamlı bilgiler çıkarma sanatıdır. Makine öğrenimi ve istatistik yöntemlerini kullanır.,Veri Bilimi,Anonymous
+Makine Öğrenimi,Makine öğrenimi bilgisayarların deneyimlerden öğrenmesini sağlayan bir yapay zeka dalıdır. Supervised ve unsupervised learning olmak üzere iki ana türü vardır.,Yapay Zeka,Tom Mitchell
+Derin Öğrenme,Derin öğrenme çok katmanlı yapay sinir ağları kullanan bir makine öğrenimi tekniğidir. Görüntü tanıma ve doğal dil işleme alanlarında başarılıdır.,Yapay Zeka,Geoffrey Hinton
+Natural Language Processing,NLP bilgisayarların insan dilini anlamasını sağlayan teknolojilerdir. Metin analizi sentiment analizi ve chatbot geliştirme gibi uygulamalar içerir.,AI,Christopher Manning
+FAISS Kütüphanesi,FAISS Facebook AI Research tarafından geliştirilen yüksek performanslı similarity search kütüphanesidir. Milyarlarca vektör arasında hızlı arama yapabilir.,Araçlar,Facebook AI
+LangChain Framework,LangChain LLM uygulamaları geliştirmek için kullanılan bir Python framework'üdür. Prompt yönetimi chain oluşturma ve agent geliştirme özellikleri sunar.,Araçlar,Harrison Chase
+Transformers Mimarisi,Transformers 2017'de Google tarafından önerilen attention mekanizması kullanan bir neural network mimarisidir. BERT ve GPT gibi modellerin temelini oluşturur.,Derin Öğrenme,Google Research
+RAG Sistemi,RAG Retrieval-Augmented Generation sistemleri bilgi tabanından ilgili dokümanları alıp LLM'e vererek daha doğru cevaplar üretir. Halüsinasyonu azaltır.,NLP,Facebook AI
+Vector Database,Vektör veritabanları embedding vektorlerini saklayıp benzerlik araması yapmak için optimize edilmiş veritabanlarıdır. Pinecone Weaviate ve Chroma örneklerdir.,Veritabanı,Anonymous
+

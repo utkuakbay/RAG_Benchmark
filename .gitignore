@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+
+# Cache
+cache/
+*.faiss
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Design docs (internal)
+ENHANCED_RAG_SYSTEM_DESIGN.md

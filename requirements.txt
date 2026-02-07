@@ -1,0 +1,35 @@
+# Core Framework
+streamlit
+pandas
+plotly                           # Grafikler için
+
+# LangChain Framework
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-google-genai
+langchain-openai
+langchain-anthropic              # Claude
+langchain-community>=0.3.0
+langchain-huggingface
+langchain-ollama                # Ollama entegrasyonu
+
+# Vector Database
+faiss-cpu
+
+# Embeddings
+sentence-transformers
+
+# Environment
+python-dotenv
+
+# Hardware Monitoring
+psutil                          # RAM/CPU takibi
+
+# Evaluation Metrics
+rouge-score                     # ROUGE metrics
+bert-score                      # BERTScore (context-aware)
+scipy                           # Pearson correlation (cross-validation)
+
+# PyTorch (BERTScore için gerekli)
+torch
