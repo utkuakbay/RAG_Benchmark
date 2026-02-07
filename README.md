@@ -1,9 +1,10 @@
 # RAG Model Selector
+
 <p align="center">
-  <img src="https://img.shields.io/badge/RAG-Model_Selector-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==" alt="RAG Model Selector"/>
+  <img src="https://img.shields.io/badge/RAG-Model_Selector-blue?style=for-the-badge" alt="RAG Model Selector"/>
 </p>
 
-<h3 align="center">🎯 Find the Perfect LLM for Your RAG System</h3>
+<h3 align="center">Find the Perfect LLM for Your RAG System</h3>
 
 <p align="center">
   <strong>Enterprise-Grade Benchmarking Tool for AI Model Selection</strong><br>
@@ -26,16 +27,16 @@
 
 ---
 
-## 📋 Contents
+## Contents
 
-- [About the Project](#-about-the-project)
-- [Why RAG Model Selector?](#-why-rag-model-selector)
-- [Features](#-features)
-- [Technologies](#-technologies)
-- [System Architecture](#-system-architecture)
+- [About the Project](#about-the-project)
+- [Why RAG Model Selector](#why-rag-model-selector)
+- [Features](#features)
+- [Technologies](#technologies)
+- [System Architecture](#system-architecture)
 - [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage Guide](#-usage-guide)
+- [Installation](#%EF%B8%8F-installation)
+- [Usage Guide](#usage-guide)
 - [Evaluation Metrics](#-evaluation-metrics)
 - [Sample Results](#-sample-results)
 - [Configuration](#-configuration)
@@ -44,9 +45,9 @@
 
 ---
 
-## 🎯 About the Project
+## About the Project
 
-**RAG Model Selector** is an AI-powered benchmarking platform that modernizes the LLM selection process for RAG (Retrieval-Augmented Generation) systems. By leveraging scientific evaluation metrics, it helps users identify the optimal model for their specific use case.
+**RAG Model Selector** is a benchmarking platform that modernizes the LLM selection process for RAG (Retrieval-Augmented Generation) systems. By leveraging scientific evaluation metrics, it helps users identify the optimal model for their specific use case.
 
 Building a RAG system requires choosing the right LLM, but:
 - **Which model works best with YOUR specific data?**
@@ -57,19 +58,19 @@ This tool answers these questions with data-driven insights.
 
 ---
 
-## 🌟 Why RAG Model Selector?
+## Why RAG Model Selector
 
 <table>
 <tr>
 <td width="50%">
 
-### 🔬 Scientific Evaluation
+### Scientific Evaluation
 Three-metric weighted scoring system ensures comprehensive and unbiased model assessment using Semantic Similarity, BERTScore, and ROUGE metrics.
 
 </td>
 <td width="50%">
 
-### 🤖 Multi-Model Support
+### Multi-Model Support
 Test 7 different LLMs simultaneously - including Google Gemini, OpenAI GPT, Anthropic Claude, and local models via Ollama.
 
 </td>
@@ -77,13 +78,13 @@ Test 7 different LLMs simultaneously - including Google Gemini, OpenAI GPT, Anth
 <tr>
 <td width="50%">
 
-### 📊 Interactive Visualizations
-Beautiful charts including bar graphs, radar charts, and delta analysis to visualize model performance across multiple dimensions.
+### Interactive Visualizations
+Charts including bar graphs, radar charts, and delta analysis to visualize model performance across multiple dimensions.
 
 </td>
 <td width="50%">
 
-### 🧠 AI-Powered Insights
+### AI-Powered Insights
 Claude automatically analyzes benchmark results and provides personalized recommendations for your use case.
 
 </td>
@@ -91,13 +92,13 @@ Claude automatically analyzes benchmark results and provides personalized recomm
 <tr>
 <td width="50%">
 
-### ⚡ Performance Optimized
+### Performance Optimized
 GPU acceleration, vectorstore caching, and sequential execution ensure fast benchmarks without system overload.
 
 </td>
 <td width="50%">
 
-### 💰 Cost-Aware Analysis
+### Cost-Aware Analysis
 Track token usage and API costs in real-time, helping you make budget-conscious decisions.
 
 </td>
@@ -106,9 +107,9 @@ Track token usage and API costs in real-time, helping you make budget-conscious 
 
 ---
 
-## 💡 Features
+## Features
 
-### 👤 For Individual Developers
+### For Individual Developers
 
 | Feature | Description |
 |---------|-------------|
@@ -117,7 +118,7 @@ Track token usage and API costs in real-time, helping you make budget-conscious 
 | **Quick Testing** | Test with 8-64 questions for fast results |
 | **Export Results** | Download benchmark results as CSV for further analysis |
 
-### 💼 For Enterprises
+### For Enterprises
 
 | Feature | Description |
 |---------|-------------|
@@ -126,7 +127,7 @@ Track token usage and API costs in real-time, helping you make budget-conscious 
 | **Compliance Ready** | Document model selection decisions with scientific metrics |
 | **Team Collaboration** | Share reproducible benchmark results |
 
-### 🔬 Evaluation Capabilities
+### Evaluation Capabilities
 
 | Capability | Description |
 |------------|-------------|
@@ -137,7 +138,7 @@ Track token usage and API costs in real-time, helping you make budget-conscious 
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 <table>
 <tr>
@@ -204,7 +205,7 @@ Track token usage and API costs in real-time, helping you make budget-conscious 
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -239,7 +240,7 @@ Track token usage and API costs in real-time, helping you make budget-conscious 
 │                               │                                     │
 │  ┌────────────────────────────▼───────────────────────────────────┐│
 │  │                 RESULTS & VISUALIZATION                        ││
-│  │  📊 Performance Tables  📈 Interactive Charts  🤖 AI Analysis  ││
+│  │  Performance Tables    Interactive Charts    AI Analysis       ││
 │  └────────────────────────────────────────────────────────────────┘│
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
@@ -253,15 +254,15 @@ User Data → Chunking → Embedding → FAISS Index → Retrieval → LLM → E
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 RAG-Model-Selector/
-├── 📁 config/
+├── config/
 │   ├── __init__.py              # Configuration exports
 │   └── model_config.py          # Model configs, pricing, embeddings
 │
-├── 📁 core/
+├── core/
 │   ├── __init__.py              # Core module exports
 │   ├── benchmark_runner.py      # Test orchestration engine
 │   ├── csv_processor.py         # Data ingestion & chunking
@@ -269,7 +270,7 @@ RAG-Model-Selector/
 │   ├── model_manager.py         # LLM loading & invocation
 │   ├── rag_pipeline.py          # FAISS vectorstore management
 │   │
-│   └── 📁 evaluation/
+│   └── evaluation/
 │       ├── __init__.py          # Evaluation exports
 │       ├── unified_evaluator.py # Weighted score aggregation
 │       ├── semantic_scorer.py   # Sentence Transformers similarity
@@ -277,15 +278,15 @@ RAG-Model-Selector/
 │       ├── rouge_scorer.py      # ROUGE-1, ROUGE-2, ROUGE-L
 │       └── keyword_scorer.py    # Keyword extraction & matching
 │
-├── 📁 cache/
-│   └── 📁 vectorstores/         # Cached FAISS indices (gitignored)
+├── cache/
+│   └── vectorstores/            # Cached FAISS indices (gitignored)
 │
-├── 📄 enhanced_app.py           # Streamlit UI application
-├── 📄 requirements.txt          # Python dependencies
-├── 📄 env.example               # API key template
-├── 📄 .gitignore                # Git ignore rules
-├── 📄 LICENSE                   # MIT License
-└── 📄 README.md                 # This file
+├── enhanced_app.py              # Streamlit UI application
+├── requirements.txt             # Python dependencies
+├── env.example                  # API key template
+├── .gitignore                   # Git ignore rules
+├── LICENSE                      # MIT License
+└── README.md                    # This file
 ```
 
 ---
@@ -301,8 +302,8 @@ RAG-Model-Selector/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/rag-model-selector.git
-cd rag-model-selector
+git clone https://github.com/utkuakbay/RAG_Benchmark.git
+cd RAG_Benchmark
 ```
 
 ### Step 2: Create Virtual Environment
@@ -358,7 +359,7 @@ The application will open at `http://localhost:8501`
 
 ---
 
-## 📘 Usage Guide
+## Usage Guide
 
 ### Step 1: Prepare Your Data
 
@@ -433,30 +434,25 @@ Final Score = (Semantic × 0.60) + (BERT × 0.30) + (ROUGE × 0.10)
 
 ## 📈 Sample Results
 
-### Performance Summary
+### Benchmark Results (8 Questions, Chunk Size: 1000, K: 3)
 
-| Model | Score | Semantic | BERT | Time | Cost |
-|-------|-------|----------|------|------|------|
-| Claude 3.5 Haiku | **53.7** | 50.8 | 66.0 | 1.69s | $0.0026 |
-| Qwen 2 (7B) | 51.0 | 47.4 | 65.7 | 1.96s | $0.0000 |
-| Llama 3.1 (8B) | 50.7 | 43.3 | 65.4 | 1.60s | $0.0000 |
-| Gemini 2.5 Flash | 49.8 | 45.5 | 61.5 | 3.79s | $0.0006 |
-| Mistral (7B) | 49.9 | 46.7 | 63.3 | 7.68s | $0.0000 |
-| Phi-3 (3.8B) | 30.4 | 21.1 | 54.1 | 37.08s | $0.0000 |
+| Model | Score | Semantic | BERT | ROUGE | Time | Cost |
+|-------|-------|----------|------|-------|------|------|
+| **Claude 3.5 Haiku** | **84.9** | 87.9 | 84.9 | 66.7 | 1.66s | $0.0007 |
+| Qwen 2 (7B) | 81.9 | 83.1 | 83.6 | 69.6 | 2.15s | $0.0000 |
+| Mistral (7B) | 76.2 | 79.5 | 78.4 | 49.6 | 3.63s | $0.0000 |
+| Gemini 2.5 Flash | 71.6 | 73.0 | 73.3 | 58.2 | 1.53s | $0.0001 |
+| Llama 3.1 (8B) | 68.8 | 67.0 | 74.3 | 36.6 | 2.09s | $0.0000 |
+| Phi-3 (3.8B) | 56.0 | 58.8 | 63.6 | 16.7 | 6.94s | $0.0000 |
 
-### AI Analysis Example
+### Key Findings
 
-> **🏆 Best Model: Claude 3.5 Haiku**
-> 
-> Claude achieved the highest overall score (53.7) with excellent semantic similarity (50.8) and BERTScore (66.0). Response time is fast (1.69s).
->
-> **💰 Cost-Performance Winner: Qwen 2**
-> 
-> For cost-conscious deployments, Qwen offers 95% of Claude's performance at zero cost.
->
-> **⚠️ Not Recommended: Phi-3**
-> 
-> Phi-3 shows significantly lower performance (30.4) with very slow response times (37s).
+- **Best Overall:** Claude 3.5 Haiku - highest scores with fast response times
+- **Best Value:** Qwen 2 - 96% of Claude's performance at zero cost
+- **Fastest:** Gemini 2.5 Flash - 1.53s average response time
+- **Not Recommended:** Phi-3 - lower scores with slower responses
+
+> **Note:** Results vary based on your dataset, chunk size, number of questions, and retriever K value. The quality and domain-specificity of your corpus and test questions significantly impact model performance. We recommend running multiple benchmarks with different configurations to find the optimal setup for your use case.
 
 ---
 
@@ -519,14 +515,6 @@ Contributions are welcome! Follow these steps:
 
 ---
 
-## 👥 Author
-
-| Name | Role | GitHub |
-|------|------|--------|
-| **Mustafa Utku Akbay** | Developer | [utkuakbay](https://github.com/utkuakbay) |
-
----
-
 ## 📄 License
 
 ```
@@ -551,22 +539,13 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ---
 
-## 🙏 Acknowledgments
-
-- [LangChain](https://langchain.com/) - RAG framework
-- [Ollama](https://ollama.ai/) - Local model serving
-- [Hugging Face](https://huggingface.co/) - Embedding models
-- [Streamlit](https://streamlit.io/) - UI framework
-- [FAISS](https://github.com/facebookresearch/faiss) - Vector search
-- [Plotly](https://plotly.com/) - Interactive visualizations
-
----
-
 <p align="center">
-  <strong>🎯 Stop guessing. Start benchmarking.</strong><br>
+  <strong>Stop guessing. Start benchmarking.</strong><br>
   <em>Find the perfect LLM for your RAG system.</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" alt="Made with love"/>
+  <a href="https://github.com/utkuakbay/RAG_Benchmark">
+    <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-white?style=for-the-badge&labelColor=black" alt="Made with love"/>
+  </a>
 </p>
